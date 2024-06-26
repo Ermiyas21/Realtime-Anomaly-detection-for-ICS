@@ -2,7 +2,7 @@
 
 
 ##### Instructions
-This repository contains a setup for running an anomaly detection system for Industrial Control Systems (ICS) using Docker, Kafka, and Spark. 
+This repository contains a setup for running an anomaly detection system for Industrial Control Systems (ICS) using Docker, Kafka, Spark, Grafana, and InfluxDB. 
 Follow the steps below to get the system up and running. 
 ##### Prerequisites
 - Docker
@@ -28,5 +28,10 @@ Access the Spark container:
 Step 6: Submit the Spark Job
 Once inside the Spark container, run the following command to submit the Spark job:
   - spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 /sparkScripts/streamingProcess.py
+Step 7: Start InfluxDB and Grafana
+Ensure that InfluxDB and Grafana are running. They should be started with the Docker Compose command in Step 1.
+
+Step 8: Visualize Output with Grafana
+Open Grafana in your web browser (usually at http://localhost:3000). Configure Grafana to connect to InfluxDB, and create dashboards to visualize the output data from the anomaly detection process. 
 ##### Conclusion
 Follow these steps to set up and run the anomaly detection system for ICS. Ensure all prerequisites are installed and configured correctly. For any issues or questions, please open an issue in this repository. 
