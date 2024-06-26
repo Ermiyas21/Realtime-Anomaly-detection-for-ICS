@@ -30,7 +30,7 @@ Once inside the Spark container, run the following command to submit the Spark j
   - spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 /sparkScripts/streamingProcess.py
 
 Step 7: Start InfluxDB and Grafana
-- Ensure that InfluxDB (http:// localhost:8086) and Grafana (http:localhost:3000) are running. They should be started with the Docker Compose command in Step 1. 
+- Ensure that InfluxDB (http://localhost:8086) and Grafana (http://localhost:3000) are running. They should be started with the Docker Compose command in Step 1. 
 - Setup the user name ans passwrd for both InfluxDb and Grafana 
 
 Step 8: Visualize Output with Grafana
