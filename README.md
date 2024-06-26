@@ -11,3 +11,22 @@ Follow the steps below to get the system up and running.
 ##### Getting Started 
 Step 1: Bring up Docker Containers
 First, start the Docker containers using Docker Compose: 
+   - docker-compose up
+Step 2: Verify Dataset Availability 
+Open a new terminal and check if the dataset is available.
+
+Step 3: Run the Kafka Producer
+Navigate to the Kafka directory and run the Kafka producer script:  
+   - cd kafka
+   - python producer.py
+Step 4: Check Running Docker Containers
+   - docker ps
+Step 5: Access the Spark Container
+Access the Spark container:
+   - docker exec -it <SparkContainerID> bash
+ Replace <SparkContainerID> with the actual ID of the Spark container from the docker ps output.
+Step 6: Submit the Spark Job
+Once inside the Spark container, run the following command to submit the Spark job:
+  - spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 /sparkScripts/streamingProcess.py
+##### Conclusion
+Follow these steps to set up and run the anomaly detection system for ICS. Ensure all prerequisites are installed and configured correctly. For any issues or questions, please open an issue in this repository. 
