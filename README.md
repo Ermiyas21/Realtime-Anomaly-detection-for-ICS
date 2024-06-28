@@ -1,6 +1,6 @@
 ### Real-Time Anomaly Detection with Uncertainty Estimation 
 
-- The objective of this study is to proposed a real-time anomaly detection framework and assess the uncertainty associated with the proposed method.  The anomaly detection framework for ICS data streams, using Docker containers for scalable and manageable model deployment. Three machine learning models—Autoencoder (AE), LSTM Autoencoder (LSTM-AE), and Sequence-to-Sequence (Seq2Seq)— were trained on the Secure Water Treatment (SWaT) and HIL-based Augmented (HAI) datasets to detect anomalie 
+- The objective of this study is to proposed a real-time anomaly detection framework and assess the uncertainty associated with the proposed method.  The anomaly detection framework for ICS data streams, using Docker containers for scalable and manageable model deployment. Three machine learning models—Autoencoder (AE), LSTM Autoencoder (LSTM-AE), and Sequence-to-Sequence (Seq2Seq)— were trained on the Secure Water Treatment (SWaT) and HIL-based Augmented (HAI) datasets to detect anomalies 
 
 
 ##### Instructions
