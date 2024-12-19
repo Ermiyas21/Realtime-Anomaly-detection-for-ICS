@@ -45,4 +45,4 @@ Open Grafana in your web browser (at http://localhost:3000). Configure Grafana t
 ##### Conclusion
 Follow these steps to set up and run the anomaly detection system for ICS. Ensure all prerequisites are installed and configured correctly. For any issues or questions, please open an issue in this repository. 
 ##### Contact Address: 
-ermiyasbirihanu@inf.elte.hu  
+ermiyasbirihanu@inf.elte.hu or mymam21@gmail.com 
