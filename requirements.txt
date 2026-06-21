@@ -1,0 +1,16 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+scipy
+joblib
+tensorflow
+keras
+pytest 
+
+jupyter
+notebook
+imbalanced-learn
+xgboost
+lightgbm 
